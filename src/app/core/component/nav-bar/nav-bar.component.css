@@ -1,0 +1,24 @@
+#navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    font-weight: 600;
+}
+#navbarTitle{
+    padding: 0 10px 0 30px;
+    font-size: 30px;
+}
+.page{
+    text-decoration: none;
+    color: rgb(202, 202, 202);
+    padding: 5px 10px;
+}
+.page:hover{
+    color: rgb(238, 238, 238);
+}

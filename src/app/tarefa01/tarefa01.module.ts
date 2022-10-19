@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { ConversorComponent } from './conversor/conversor.component';
 
@@ -7,6 +8,7 @@ import { ConversorComponent } from './conversor/conversor.component';
     ConversorComponent
   ],
   imports: [
+    FormsModule,
     RouterModule.forChild([
       {
         path: 'tarefa01', component: ConversorComponent
